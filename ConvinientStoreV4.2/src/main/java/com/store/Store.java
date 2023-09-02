@@ -66,7 +66,10 @@ public class Store {
         customer1.buy();
         customer2.buy();
 
-        cashierImp2.dispenseReceipt();
+        //cashierImp2.sellByPriority();
+        //System.out.println(cashierImp2.sellByPriority());
+        System.out.println(cashierImp1.sellByFIFO());
+        //cashierImp1.sellByFIFO();
 
 
         // View product left after customer purchase

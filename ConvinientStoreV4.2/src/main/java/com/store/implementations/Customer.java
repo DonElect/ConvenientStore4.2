@@ -3,6 +3,7 @@ package com.store.implementations;
 import com.store.models.CustomerModel;
 import com.store.models.ProductDetails;
 import com.store.services.CATEGORY;
+import com.store.services.FIFOQueue;
 import com.store.services.PriorityGenerator;
 import lombok.Getter;
 
@@ -88,7 +89,9 @@ public class Customer {
 
     public boolean buy(){
         PriorityGenerator newPriority = new PriorityGenerator(customer.getID(), cart);
-        newPriority.addToQueue(newPriority);
+        FIFOQueue fiFoClass = new FIFOQueue(customer.getID(), cart);
+        fiFoClass.addToFIFOQueue(fiFoClass);
+        newPriority.addToPriorityQueue(newPriority);
         return true;
     }
 
