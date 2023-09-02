@@ -1,6 +1,7 @@
 package com.store.implementations;
 
 import com.store.models.Cashier;
+import com.store.models.CustomerModel;
 import com.store.models.Manager;
 import com.store.services.CashierServices;
 import com.store.services.ManagerServices;
@@ -24,8 +25,10 @@ class CustomerTest {
                 25, "D0002B02", "jamemary@gmail.com",
                 "Ohen", "Stand 1");
         cashierImp = new CashierImp(cashier);
-        customer1 = new Customer();
-        customer2 = new Customer();
+        customer1 = new Customer(new CustomerModel("Mike"));
+        customer1.addMe();
+        customer2 = new Customer(new CustomerModel("James"));
+        customer2.addMe();
     }
     // Creating the necessary instances
 

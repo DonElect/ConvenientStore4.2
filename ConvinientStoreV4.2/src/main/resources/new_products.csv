@@ -1,16 +1,17 @@
 Name,Category,Price,Quantity
-orange,FRUITS,50,10
-banana,FRUITS,1500,0
-mango,FRUITS,100,10
-bitter leaf,VEGETABLES,150,0
+orange,FRUITS,50,100
+banana,FRUITS,1500,12
+apple,FRUITS,300,50
+mango,FRUITS,100,25
+bitter leaf,VEGETABLES,150,30
 cent leaf,VEGETABLES,70,10
-water leaf,VEGETABLES,100,0
+water leaf,VEGETABLES,100,20
 pumpkin leaf,VEGETABLES,120,12
 golden-more,PROVISIONS,2000,10
 cowbell,PROVISIONS,1600,3
-miksi,PROVISIONS,1500,3
+miksi,PROVISIONS,1500,5
 milo,PROVISIONS,1700,10
-cutlass,TOOLS,1000,6
+cutlass,TOOLS,1000,16
 hammer,TOOLS,1200,10
 screw driver,TOOLS,600,13
-soldering iron,TOOLS,1500,2
+soldering iron,TOOLS,1500,15

@@ -87,6 +87,7 @@ public class CashierImp implements CashierServices {
                 System.out.println();
                 sum += items.getValue().getPrice() * (items.getValue().getQuantity());
             }
+            System.out.println("Total: "+sum);
             // Clear the user cart to avoid buy repetition
             cart.clear();
             //If receipt was successfully dispensed
